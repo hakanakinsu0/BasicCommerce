@@ -51,6 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Options\AppUserConfiguration.cs" />
+    <Compile Include="Options\BaseConfiguration.cs" />
+    <Compile Include="Options\CategoryConfiguration.cs" />
+    <Compile Include="Options\OrderConfiguration.cs" />
+    <Compile Include="Options\OrderDetailConfiguration.cs" />
+    <Compile Include="Options\ProductConfiguration.cs" />
+    <Compile Include="Options\ProfileConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
