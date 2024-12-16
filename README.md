@@ -53,23 +53,26 @@ Projede kullanılan temel Entity sınıfları şunlardır:
 
 ---
 
-## 📋 Kurulum
+## 🔧 Kurulum Adımları  
 Projeyi çalıştırmak için aşağıdaki adımları takip edin:  
-1. Bu projeyi klonlayın:  
-   ```bash
-   git clone https://github.com/hakanakinsu0/BasicCommerce.git
 
-Visual Studio'da projeyi açın.
-Project.WinFormUI projesinde App.config dosyasını açarak veritabanı bağlantı stringini düzenleyin.
-Solution'ı Built edin.
-Uygulamayı çalıştırın.
+1. **Visual Studio'da projeyi açın.**  
+2. **`Project.WinFormUI projesinde App.config`** dosyasını açarak veritabanı bağlantı stringini düzenleyin.
+3. Solution'ı **'Built'** edin.
+4. Veritabanını oluşturmak için **Entity Framework Code First Migrations** komutlarını çalıştırın:  
+   enable-migrations -enableautomaticmigrations
+   update-database
 
-📚 Öğrenim Hedefleri
-Bu proje, aşağıdaki kavramların öğrenilmesini ve uygulanmasını hedefler:
 
-N-Tier mimarinin temel prensipleri.
-Entity Framework Code First yaklaşımıyla veritabanı tasarımı.
-İş kuralları ve veri erişim katmanlarının ayrıştırılması.
-Temiz kod yazımı ve katmanlı mimarinin avantajları.
-📬 İletişim
-Eğer bu proje hakkında herhangi bir sorunuz varsa, Hakan Akınsu ile iletişime geçebilirsiniz.
+## 📚 Öğrenim Hedefleri  
+Bu proje, aşağıdaki kavramların öğrenilmesini ve uygulanmasını hedefler:  
+
+- **N-Tier mimarinin temel prensipleri.**  
+- **Entity Framework Code First** yaklaşımıyla veritabanı tasarımı.  
+- **İş kuralları ve veri erişim katmanlarının ayrıştırılması.**  
+- **Temiz kod yazımı ve katmanlı mimarinin avantajları.**  
+
+## 📬 İletişim  
+Eğer bu proje hakkında herhangi bir sorunuz varsa, [Hakan Akınsu](https://github.com/hakanakinsu0) ile iletişime geçebilirsiniz.  
+
+
