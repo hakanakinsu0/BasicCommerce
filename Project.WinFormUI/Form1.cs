@@ -61,6 +61,9 @@ namespace Project.WinFormUI
         private void BtnYokEt_Click(object sender, EventArgs e)
         {
             DestroyCategory();
+            GetCategories();
+
+
         }
 
         private void BtnAktif_Click(object sender, EventArgs e)
