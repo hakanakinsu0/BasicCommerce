@@ -63,3 +63,13 @@ Visual Studio'da projeyi açın.
 Project.WinFormUI projesinde App.config dosyasını açarak veritabanı bağlantı stringini düzenleyin.
 Solution'ı Built edin.
 Uygulamayı çalıştırın.
+
+📚 Öğrenim Hedefleri
+Bu proje, aşağıdaki kavramların öğrenilmesini ve uygulanmasını hedefler:
+
+N-Tier mimarinin temel prensipleri.
+Entity Framework Code First yaklaşımıyla veritabanı tasarımı.
+İş kuralları ve veri erişim katmanlarının ayrıştırılması.
+Temiz kod yazımı ve katmanlı mimarinin avantajları.
+📬 İletişim
+Eğer bu proje hakkında herhangi bir sorunuz varsa, Hakan Akınsu ile iletişime geçebilirsiniz.
