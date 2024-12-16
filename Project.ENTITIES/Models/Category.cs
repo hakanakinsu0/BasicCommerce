@@ -16,5 +16,10 @@ namespace Project.ENTITIES.Models
 
         //1 urun 1 kategoride, 1 kategoride birden fazla urun bulunur.
         public virtual List<Product> Products { get; set; }
+
+        public override string ToString()
+        {
+            return $"{CategoryName} - Veri durumu {Status}...E.Tarih{CreatedDate} ,G.Tarih : {ModifiedDate} , P.Tarih {DeletedDate}";
+        }
     }
 }
